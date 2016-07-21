@@ -1,0 +1,50 @@
+E:\MyProjects\Educational Administration System\Main\bin\Main.dll
+E:\MyProjects\Educational Administration System\Main\bin\Main.pdb
+E:\MyProjects\Educational Administration System\Main\bin\DAL.dll
+E:\MyProjects\Educational Administration System\Main\bin\DAL.pdb
+E:\MyProjects\Educational Administration System\Main\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\Educational Administration System\Main\obj\Debug\Main.dll
+E:\MyProjects\Educational Administration System\Main\obj\Debug\Main.pdb
+C:\Users\dell\Desktop\Educational Administration System\Main\bin\Main.dll
+C:\Users\dell\Desktop\Educational Administration System\Main\bin\Main.pdb
+C:\Users\dell\Desktop\Educational Administration System\Main\bin\BLL.dll
+C:\Users\dell\Desktop\Educational Administration System\Main\bin\DAL.dll
+C:\Users\dell\Desktop\Educational Administration System\Main\bin\BLL.pdb
+C:\Users\dell\Desktop\Educational Administration System\Main\bin\DAL.pdb
+C:\Users\dell\Desktop\Educational Administration System\Main\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dell\Desktop\Educational Administration System\Main\obj\Debug\Main.dll
+C:\Users\dell\Desktop\Educational Administration System\Main\obj\Debug\Main.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\obj\Debug\Main.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\Main.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\Main.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\BLL.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\Model.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\DAL.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\BLL.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\Model.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\bin\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Main\obj\Debug\Main.pdb
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\Main.dll
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\Main.pdb
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\BLL.dll
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\Model.dll
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\DAL.dll
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\BLL.pdb
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\Model.pdb
+C:\Users\asus\Desktop\Educational Administration System\Main\bin\DAL.pdb
+C:\Users\asus\Desktop\Educational Administration System\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\Educational Administration System\Main\obj\Debug\Main.dll
+C:\Users\asus\Desktop\Educational Administration System\Main\obj\Debug\Main.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Users\奇珂\Desktop\Educational Administration System\Main\obj\Debug\Main.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\Main.dll.config
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\Main.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\Main.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\BLL.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\DAL.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\Model.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\BLL.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\DAL.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Main\bin\Model.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Main\obj\Debug\Main.pdb

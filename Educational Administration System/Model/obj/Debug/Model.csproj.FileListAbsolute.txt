@@ -1,0 +1,23 @@
+E:\MyProjects\Educational Administration System\Model\bin\Debug\Model.dll
+E:\MyProjects\Educational Administration System\Model\bin\Debug\Model.pdb
+E:\MyProjects\Educational Administration System\Model\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\Educational Administration System\Model\obj\Debug\Model.dll
+E:\MyProjects\Educational Administration System\Model\obj\Debug\Model.pdb
+C:\Users\dell\Desktop\Educational Administration System\Model\bin\Debug\Model.dll
+C:\Users\dell\Desktop\Educational Administration System\Model\bin\Debug\Model.pdb
+C:\Users\dell\Desktop\Educational Administration System\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dell\Desktop\Educational Administration System\Model\obj\Debug\Model.dll
+C:\Users\dell\Desktop\Educational Administration System\Model\obj\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Model\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Model\bin\Debug\Model.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Model\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Model\obj\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\Model\obj\Debug\Model.pdb
+C:\Users\asus\Desktop\Educational Administration System\Model\bin\Debug\Model.dll
+C:\Users\asus\Desktop\Educational Administration System\Model\bin\Debug\Model.pdb
+C:\Users\asus\Desktop\Educational Administration System\Model\obj\Debug\Model.dll
+C:\Users\asus\Desktop\Educational Administration System\Model\obj\Debug\Model.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Model\bin\Debug\Model.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Model\bin\Debug\Model.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\Model\obj\Debug\Model.dll
+C:\Users\奇珂\Desktop\Educational Administration System\Model\obj\Debug\Model.pdb

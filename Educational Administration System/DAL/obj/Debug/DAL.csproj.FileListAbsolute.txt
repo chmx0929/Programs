@@ -1,0 +1,35 @@
+E:\MyProjects\Educational Administration System\DAL\bin\Debug\DAL.dll
+E:\MyProjects\Educational Administration System\DAL\bin\Debug\DAL.pdb
+E:\MyProjects\Educational Administration System\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\MyProjects\Educational Administration System\DAL\obj\Debug\DAL.dll
+E:\MyProjects\Educational Administration System\DAL\obj\Debug\DAL.pdb
+E:\MyProjects\Educational Administration System\DAL\bin\Debug\Model.dll
+E:\MyProjects\Educational Administration System\DAL\bin\Debug\Model.pdb
+C:\Users\dell\Desktop\Educational Administration System\DAL\bin\Debug\DAL.dll
+C:\Users\dell\Desktop\Educational Administration System\DAL\bin\Debug\DAL.pdb
+C:\Users\dell\Desktop\Educational Administration System\DAL\bin\Debug\Model.dll
+C:\Users\dell\Desktop\Educational Administration System\DAL\bin\Debug\Model.pdb
+C:\Users\dell\Desktop\Educational Administration System\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\dell\Desktop\Educational Administration System\DAL\obj\Debug\DAL.dll
+C:\Users\dell\Desktop\Educational Administration System\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\obj\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\obj\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\bin\Debug\DAL.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\bin\Debug\DAL.pdb
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\bin\Debug\Model.dll
+C:\Documents and Settings\Administrator\桌面\Educational Administration System\DAL\bin\Debug\Model.pdb
+C:\Users\asus\Desktop\Educational Administration System\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\asus\Desktop\Educational Administration System\DAL\obj\Debug\DAL.dll
+C:\Users\asus\Desktop\Educational Administration System\DAL\bin\Debug\DAL.dll
+C:\Users\asus\Desktop\Educational Administration System\DAL\bin\Debug\DAL.pdb
+C:\Users\asus\Desktop\Educational Administration System\DAL\bin\Debug\Model.dll
+C:\Users\asus\Desktop\Educational Administration System\DAL\bin\Debug\Model.pdb
+C:\Users\asus\Desktop\Educational Administration System\DAL\obj\Debug\DAL.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\bin\Debug\DAL.dll
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\bin\Debug\DAL.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\bin\Debug\Model.dll
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\bin\Debug\Model.pdb
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\obj\Debug\DAL.dll
+C:\Users\奇珂\Desktop\Educational Administration System\DAL\obj\Debug\DAL.pdb
