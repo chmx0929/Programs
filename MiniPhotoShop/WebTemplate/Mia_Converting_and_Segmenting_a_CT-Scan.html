@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Converting and Segmenting a CT Scan Using Mia </title>
+	<link class = "page" rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+	<div class="content">
+		<nav>
+			<a href="index.html" class = "page"> Home </a> |
+			<a href="usersupport.html" class = "page"> User Support </a> |
+			<a href="developersupport.html" class = "page"> Developer Support</a>
+		</nav>
+	</div>
+
+	<div class = "content">
+		<h1>Converting and Segmenting a CT Scan Using Mia</h1>
+		<p>In addition to having a powerful GLUI, Mia can also be used on the command line. This feature set is useful especially when making a large number of similar adjustments to an image.
+		</p>
+		<p> This tutorial will cover a series of such modifications using the command line to process CT scans. By following this example, soon you will be able to make your own edits via commandline. Then you’ll be the envy of radiologists everywhere. Don’t think mea culpa, think Mia!
+		</p>
+		<h3>Getting Started</h3>
+		<p> The best way to begin is by checking the <b>Help document</b>, which is as easy as typing <b><i>./Mia -h</i></b> in the command line.
+	</p>
+		<img src="mia_help.png" alt="nuh" title="similar to a man page" id="center-pic">
+	<p> The above help documentation lists every availible operation, and how to execute them. The rest of this tutorial will cover a specific example of what can be achieved with the Mia command line. <p>
+	 	<h3>Building commands</h3>
+		<p> Each command needs three componenets: </p>
+		<li><p>A <b>source</b> image or directory. </li></p>
+		<li><p>At least one <b>operation</b>, given in the proper format </li></p>
+		<li><p>A <b>destination</b> image or directory. Note that image given sources must be saved as images with PNG or JPEG extensions, and directory sources must be given directory destinations.</li></p>
+
+		<p> The Mia commandline can opperate both on images and recursively on directories. It is this second functionality that will be leveraged to adjust an entire image deck of CT scans. Additionally, multiple different opperations can be specificed in each line. These two properties allow for powerful one-line commands.
+
+			<p> By putting these building blocks together you get the following format: <b><i>./Mia &lt;source&gt; &lt;opperation(s)&gt; &lt;destination&gt; </b></i></p>
+			<h3>Executing on the CT scan</h3>
+			<p> The following example one line command will use two opperations on a directory of images, and save them to a new directory. First the blur opperation will be called (with a blur factor of 5 out of 20) to reduce image noise. Then the quantize command will be called with 4 bins, reducing the color space to 4 per color compenent (RGB). </p>
+			<p> the command itself looks like this:  <b><i> ./Mia src/mia/brainstack/ -blur 5 -quantize 4 src/mia/newbrainstack/ </b></i></p>
+				<img src="mia_command.png" alt="uh" title="desktop as destination is not smart" id="center-pic">
+			<p> The above is what the terminal looks like with the Mia commandline running, and below is a comparison of two images, compared before and after the command was run.
+			</p>
+				<img src="mia_comparison.png" alt="done" title="sweet pixel graphix" id="center-pic">
+
+
+
+
+
+	</div>
+
+	<div class = "footer">
+		<!-- You can change the copyright! -->
+		<span class="copyright">&copy; 2016, CSCI 3081 Group 11</span>
+	</div>
+
+
+</body>
+</html>

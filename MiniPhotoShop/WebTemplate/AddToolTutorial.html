@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Adding a Tool </title>
+	<link class = "page" rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+
+
+	<div class="content">
+		<nav>
+			<a href="index.html" class = "page"> Home </a> |
+			<a href="usersupport.html" class = "page"> User Support </a> |
+			<a href="developersupport.html" class = "page"> Developer Support</a>
+		</nav>
+	</div>
+
+	<div class = "content">
+		<h1>Adding a Tool</h1>
+		<p class="c3"><b><span class="c1">Step One: What shape is your brush and will it have falloff?</span></b></p>
+		<p class="c3"><span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You must first determine the end product of your brush, because there may be a built in behavior for the brush shape you require. If the shape is not provided in the libphoto library, you will have to write a mask behavior class for the required shape. Your mask behavior must have a maskPattern() function that returns a float between 0-1(0 represents no color change).</span></p><p class="c3 c6"><span></span></p><br>
+		<p class="c3"><b><span class="c1">Step Two: Create your Tool Subclass</span></b></p>
+		<span class="c2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You will need to create a subclass that inherits from Tool.h. It will have a constructor that takes in 2 integer parameters, bufferHeight and bufferWidth.</span>
+		<ul>
+			<li>
+				Member Variables to Set
+				<ul>
+				<li>m_bufferHeight = bufferHeight</li>
+				<li>m_bufferWidth = bufferWidth</li>
+				<li>m_toolSize = 1.0</li>
+				<li>m_width = m_defaultWidth (set the defaultWidth beforehand)</li>
+				<li>m_height = m_defaultHeight (set the defaultHeight beforehand)</li>
+				<li>m_maskSize = m_defaultMaskSize (set the defaultMaskSize beforehand)</li>
+				<li>Set the other member variables to your desired value</li>
+				</ul>
+			</li>
+			<li>Use the setMaskBehavior to set the behavior of your choice</li>
+			<li>Call the makeMask function</li>
+		</ul>
+		<br>
+		<p class="c3">
+			<b><span class="c1">Step Three: Move the Tool to the App</span></p><p class="c3"><span class="c1"></b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="c2">You will need to add to the &ldquo;tools&rdquo; array in the desired App&rsquo;s header file. Then initialize the tool in the constructor of the App. (tools[n] = new ToolClass(bufferHeight, bufferWidth)). To allow the user to toggle to your new tool, add a new radio button under the Glui_Panel toolPanel. Lastly, in the destructor of the App, free the memory for the new tool you just created. (delete tools[n])</span></p>
+
+	</div>
+
+	<div class = "footer">
+		<!-- You can change the copyright! -->
+		<span class="copyright">&copy; 2016, CSCI 3081 Group 11</span>
+	</div>
+
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Adding a Kernel </title>
+	<link class = "page" rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+
+
+	<div class="content">
+		<nav>
+			<a href="index.html" class = "page"> Home </a> |
+			<a href="usersupport.html" class = "page"> User Support </a> |
+			<a href="developersupport.html" class = "page"> Developer Support</a>
+		</nav>
+	</div>
+
+	<div class = "content">
+		<h1>Adding a Kernel</h1>
+		<a class = "link" href= "./AddFilterTutorial.html">Back to Filter</a>
+		<b><p>Step One: Determine the default size of your Kernel</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you want a faster filter, a smaller kernel will be a better choice.</p>
+		<br>
+		<b><p>Step Two: Create your Kernel Class</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The constructor of your kernel should take an integer parameter. Assign the parameter to the member variable m_kernelSize. Then call the makeKernel() function.</p>
+		<br>
+		<b><p>Step Three: Create the makeKernel() Function</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This function should not return anything. It should initialize a new float array to the member variable m_kernel. Then assign float values to the kernel. (0 represents the pixels that wont affect the center pixel, the larger the number the larger the affect on the center pixel, floats maybe negative or positive)</p>
+
+	</div>
+
+	<div class = "footer">
+		<!-- You can change the copyright! -->
+		<span class="copyright">&copy; 2016, CSCI 3081 Group 11</span>
+	</div>
+
+
+</body>
+</html>

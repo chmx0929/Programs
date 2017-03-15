@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Design and Style </title>
+	<link class = "page" rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+
+
+	<div class="content">
+		<nav>
+			<a href="index.html" class = "page"> Home </a> |
+			<a href="usersupport.html" class = "page"> User Support </a> |
+			<a href="developersupport.html" class = "page"> Developer Support</a>
+		</nav>
+	</div>
+
+	<div class = "content">
+		<h1>Design and Coding Style Guide</h1>
+		<b><h4>FlashPhoto UML</h4></b>
+		<img src="Iteration3FlashPhoto.jpg" alt="UML" title="FlashPhotoUML" id="center-pic">
+		<b><p>Framework</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At the very beginning of the last iteration, we as a group had been discussed a more efficient framework that is both readable and concise. In order to cut the redundancy on replicated code and unclear variable and function names, we aggregated common files that both the FlashPhoto app and MIA app shared into a single folder 'libphoto'. Furthermore, in this folder that contains common functional classes that shared by both applications, we appended prefixes for almost all those files with 'F_' tag or 'K_' tag, in order to remind developers about the hierarchical relationship between those files with either the kernel implementation or the filter implementation. Some other naming conventions that we elected in this project take a ordinary approach: function names generally represents a verb and have all lower case letter for the first word, and the first letter in upper case for the following words, without any space or underscores in between.</p>
+		<br>
+		<b><p>Design</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Standing from a higher viewpoint to look over the overall design of this project, we tried to design a flat framework rather than a tall framework, which means that the number of inheritance relationships (is-a) was shrinking while the composition relationship (has-a) is dominating. This design will decrease the coupling or dependency among classes to the largest scale and thus the failure of one class will has the minimal effect on other classes' operation.</p>
+		<br>
+		<b><p>Functions</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When creating new functions with new logistics, we names the variables and parameters with understandable names that are self-documenting the logic. Meaningful helper functions are used everywhere throughout the major functional methods that provide higher code reuse rate and lower complexity within the method. Those thread-safe helper functions can also be used by other functions in the same class, and the naming of those functions always help explaining what is going on in the caller function. Most of the helper functions we created, which will return a positive or negative reply according to the judgment criteria, has a standard integer return type. It is a convention that we treat the return value 1 as positive sentiment, a 0 as negative sentiment and minus integer values as error codes that represent different meanings according to the context.</p>
+		<br>
+		<b><p>Documentation</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;With the help from Doxygen, our in-class comments normally sit on similar relative locations among all class files. Some class files, as we talked about above, are tagged with its characteristics or belongings, so we didn't wrote a whole bunch of comment for those classes. Most of the comments that we wrote reside on the files that execute the gist functionalities to the applications, such as drawLine function that applies lines on the canvas, or executeCommand function that analyze and execute commands from users' input. To have a better sense over the organization program, the UML diagram displaying on the top of this page will aid on having a understanding about the calling sequences and classes relationships.</p>
+		<br>
+		<b><p>Design Patterns</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Design patterns that have been taught in the class, such as the strategy pattern, were also applied in this project when designing class collections that class members share many common characteristics, such as the implementation of the kernel class or redo/undo class. But there exist a tremendous space for us to apply more design patterns in this project and thus better improve the organization of the project. One of the areas that we thought would be a good place to implement the adapter or facade pattern is the external libraries that manipulate different types of image files. We could have created a intermediary that operate as a container to hold the middle state images into one data type and do modifications upon function calls from either the application side or the external library side.</p>
+		<br>
+	</div>
+
+	<div class = "footer">
+		<!-- You can change the copyright! -->
+		<span class="copyright">&copy; 2016, CSCI 3081 Group 11</span>
+	</div>
+
+
+</body>
+</html>

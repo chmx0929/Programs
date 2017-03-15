@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+	<meta charset = "utf-8">
+	<title> Adding a Filter </title>
+	<link class = "page" rel="stylesheet" type="text/css" href="stylesheet.css">
+
+</head>
+<body>
+
+
+	<div class="content">
+		<nav>
+			<a href="index.html" class = "page"> Home </a> |
+			<a href="usersupport.html" class = "page"> User Support </a> |
+			<a href="developersupport.html" class = "page"> Developer Support</a>
+		</nav>
+	</div>
+
+	<div class = "content">
+		<h1>Adding a Filter</h1>
+		<b><p>Step One: Determine if your Filter is a Convolution Filter</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If your filter is a convolution filter, it will require a Kernel. Go here to learn how to add a <a href="AddKernelTutorial.html" class = "page"> Kernel.</a></p>
+		<br>
+		<b><p>Step Two: Create the Filter Class</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If the filter is a convolution filter and will be used as a brush tool, it must have a getModifiedColor function; this function returns a ColorData. If your convolution filter takes parameters other than  the size of the kernel, you may need to make another function to set that parameter. The constructor for a filter requires you to set its kernelSize and other parameters, kernelSize must be an odd number. Then initialize your member variable, m_kernel, by calling your new kernel's constructor. If you wan't the users to be able to change the parameters of your filter, you will have to make a changeKernel() function that sets the parameters and calls makeKernel() from your new Kernel class. The filter will need a getColor function if it is a convolution filter. This function takes 2 integer parameters, the position of the current pixel of the pixelbuffer. The functin will need to loop through your new kernel. For each float in the kernel, you multiply it with the current pixel's RGB values. For each product, add them to a variable red, green, and blue. These variables will be used to make your new color. If the final sums of red, green, and blue are greater than 1, you will have to calculate a color factor by adding all the floats of the kernel. Divide the new RGB values by that color factor to get a float less than one, but greater than 0. The RGB values will be your new color. Lastly, create an applyFilter() function that takes in a pixelBuffer that it will modify. Loop through each pixel of that pixelBuffer and call setPixel with the getColor functin you just created.</p>
+		<br>
+		<b><p>Step Three: Add the new Filter to your App</p></b>
+		<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First create a variable for your new filter in the header file of your app. Then initialize the Filter in the constructor of the app. Finally add the neccessary functions to the GLUI to allow the user to apply the filter.</p>
+
+
+	</div>
+
+	<div class = "footer">
+		<!-- You can change the copyright! -->
+		<span class="copyright">&copy; 2016, CSCI 3081 Group 11</span>
+	</div>
+
+
+</body>
+</html>

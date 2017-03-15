@@ -1,0 +1,31 @@
+#ifndef LIBPHOTO_H
+#define LIBPHOTO_H
+
+#include "ColorData.h"
+#include "PixelBuffer.h"
+#include "PixelBufferStack.h"
+#include "ImportExporter.h"
+#include "Tool.h"
+#include "T_Pen.h"
+#include "T_Spray.h"
+#include "T_Eraser.h"
+#include "T_CalligraphyPen.h"
+#include "T_Highlighter.h"
+#include "T_Halo.h"
+#include "T_Gradient.h"
+#include "T_BlurTool.h"
+#include "T_Stamp.h"
+#include "Filter.h"
+#include "F_Threshold.h"
+#include "F_Quantize.h"
+#include "F_Saturate.h"
+#include "F_Blur.h"
+#include "F_MotionBlur.h"
+#include "F_Channels.h"
+#include "F_EdgeDetect.h"
+#include "F_Sharpen.h"
+#include "F_Dither.h"
+#include "F_Wallpaper.h"
+#include "F_ChromaKey.h"
+
+#endif
